@@ -5,5 +5,4 @@ Adds the git fucked command that deletes all past commits and branches. Please d
 Based off: [this](https://i.reddituploads.com/19d4c4bacc2e4300807061a72d688e92?fit=max&h=1536&w=1536&s=4399d5d74fcbf3f8bb45b3e53b1b0057)
 
 # uds.py
-A library of virtually useless data structure(s)
-ulist - an unlinked list with all built in list functions of python
+A library of virtually useless data structure(s): ulist - an unlinked list with all built in list functions of python
