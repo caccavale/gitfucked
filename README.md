@@ -1,5 +1,5 @@
 # clog.sh
-To be dropped into /usr/bin and run like "clog <git repo>" for counting lines of code in a git repo.
+To be dropped into /usr/bin and run like `clog https://github.com/caccavale/misc.git` for counting lines of code in a git repo.
 
 # gitfucked.sh
 Adds the git fucked command that deletes all past commits and branches. Please don't use this
