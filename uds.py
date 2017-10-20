@@ -1,6 +1,6 @@
 
 
-
+# A class representing an unlinked list (single element)
 class ulist:
     def __init__(self, *args):
         if len(args) == 0:
