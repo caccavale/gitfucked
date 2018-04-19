@@ -26,7 +26,6 @@ for user in sys.argv[1:]:
     logging.info('Stealing stars from %s' % user)
     src = g.get_user(user)
 
-    # Misuse of a generator to make this a one liner:
     for repo in filter(is_interesting, src.get_starred()):
         logging.info('      starring %s' % repo.full_name)
         try:
