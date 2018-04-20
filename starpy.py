@@ -19,7 +19,7 @@ logging.info('...stars got.')
 
 # Define the qualifications upon which to filter here.
 def is_interesting(repo):
-    return repo not in stars
+    return repo.full_name not in stars
 
 
 for user in sys.argv[1:]:
