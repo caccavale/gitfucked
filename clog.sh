@@ -1,8 +1,8 @@
 #!/bin/bash
 # Please think of a cleverer solution.
 TMPDIR=`mktemp -d`
-cd $TMPDIR
+pushd $TMPDIR
 git clone "$1" &>/dev/null
 cloc *
-cd ..
+popd
 rm -rf $TMPDIR
