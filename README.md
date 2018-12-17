@@ -13,3 +13,6 @@ Based off: [this](https://i.reddituploads.com/19d4c4bacc2e4300807061a72d688e92?f
 
 # starpy.py
 Probably the one useful script in here, used `python starpy.py <src_username>` (with a `token`) it will star all projects on the token owner's github that the src user has starred.
+
+# better\_list.py
+Uses some sweet jank to add two utility functions to the list class: `[0,1,2,3,4,5].bins(2) => [[0,1],[2,3],[4,5]]` and `[0,1,2,3,4,5].chunks(1,3) => [[0],[1,2],[3,4,5]]`.
